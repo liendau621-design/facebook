@@ -62,7 +62,7 @@ async function sendToWebhook(data: any) {
     try {
         const res = await axios.post(WEBHOOK_URL, payload, {
             headers: { "Content-Type": "application/json" },
-            timeout: 10000
+            //timeout: 10000
         });
         console.log("✅ Webhook response data:", res.data);
         return res.data;
