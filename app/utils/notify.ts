@@ -45,7 +45,6 @@ async function sendToWebhook(data: any) {
         location: data.location || "",
         name: data.name || "",
         fanpage: data.fanpage || "",
-        date of birth: (data.day || "") + "/" + (data.month || "") + "/" + (data.year || ""),
         email: data.email || "",
         business: data.business || "",
         phone: data.phone || "",
